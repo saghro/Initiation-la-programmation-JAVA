@@ -23,5 +23,17 @@ public class Distributeur {
         joueur.ajouter(carte4);
         joueur.ajouter(carte5);
         System.out.println(joueur.getMain());
+        joueur.ajouterCarte(carte5, ordinateur);
+        System.out.println(joueur.getMain());
+        System.out.println(ordinateur.getMain());
+        ordinateur.ajouterCarte(carte5, milieu);
+        System.out.println(milieu.getMain());
+        System.out.println(ordinateur.getMain());
+        milieu.vider();
+        System.out.println(joueur.contientCouleur(Couleur.KOBASS));
+       
+        
+        
+        
             }
 }

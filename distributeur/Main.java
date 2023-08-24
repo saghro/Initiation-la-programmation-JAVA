@@ -27,6 +27,7 @@ public class Main {
           for(Carte c:main){
               if(c.getCouleur().getNom().equals(couleur.getNom())){
                    contient = true;
+                   break;
               }
               else {
                   contient=false;
